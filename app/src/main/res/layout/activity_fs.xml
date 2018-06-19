@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".FS"
+    android:padding="10dp"
+    android:background="#fffcfc"
+    android:weightSum="10"
+    android:gravity="top">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="5dp"
+        android:background="#FFFFFFFF"
+        android:elevation="5dp"
+        android:layout_weight="2">
+
+        <ImageView
+
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:src="@drawable/jaipurbus_logo"
+
+            />
+    </RelativeLayout>
+
+
+    <ImageView
+        android:id="@+id/fsimageView"
+        android:layout_width="match_parent"
+        android:layout_height="295dp"
+        app:srcCompat="@drawable/gps_tracker" />
+
+
+</LinearLayout>

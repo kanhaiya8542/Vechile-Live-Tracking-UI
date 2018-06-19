@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FF"
+    android:padding="10dp"
+    android:weightSum="10"
+    android:background="#fffcfc"
+    android:gravity="top">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#FFFFFFFF"
+        android:elevation="5dp"
+        android:layout_weight="2">
+
+        <ImageView
+
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:elevation="4dp"
+            android:src="@drawable/jaipurbus_logo"
+
+            />
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="15dp">
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_horizontal"
+        android:layout_marginTop="15dp"
+        android:orientation="vertical">
+
+
+        <EditText
+
+            android:id="@+id/editfrom"
+            android:layout_width="320dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
+            android:background="@drawable/gradienteditext"
+            android:drawableLeft="@drawable/ic_directions_bus_black_24dp"
+            android:drawablePadding="10dp"
+            android:hint="From"
+            android:textColorHint="#fff" />
+
+        <EditText
+            android:id="@+id/editto"
+            android:layout_width="320dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/gradienteditext"
+            android:drawableLeft="@drawable/ic_directions_bus_black_24dp"
+            android:drawablePadding="10dp"
+            android:hint="To"
+            android:textColorHint="#fff" />
+
+        <Button
+            android:id="@+id/search_button"
+            android:layout_width="148dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:background="@drawable/gradienteditext"
+            android:drawableLeft="@drawable/ic_directions_bus_black_24dp"
+            android:foreground="?android:attr/selectableItemBackground"
+            android:text="Search"
+            android:textColor="#fff" />
+
+    </LinearLayout>
+    </RelativeLayout>
+
+
+
+</RelativeLayout>
